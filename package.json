@@ -1,0 +1,14 @@
+{
+  "name": "galaxy-themes",
+  "version": "1.0.0",
+  "description": "Customize your keyboard with Galaxy themes",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Arghya Maity",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}

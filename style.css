@@ -1,0 +1,14 @@
+h1 {
+  color: rgba(114, 135, 253, 1); /* "--primary": primary  */
+  color: rgba(30, 102, 245, 1); /* "--primary-variant": modified primary */
+  color: rgba(136, 57, 239, 1); /* "--secondary": secondary-foreground */
+  color: rgba(17, 204, 107, 1); /* "--secondary-variant": modified s-f */
+  color: rgba(255, 255, 255, 1); /* "--surface": background  */
+  color: rgba(220, 224, 232, 1); /* "--background": muted, accent  */
+  color: rgba(156, 160, 176, 1); /* "--surface-variant": muted, accent  */
+  color: rgba(108, 111, 133, 1); /* "--on-background": muted, accent  */
+  color: rgba(92, 95, 119, 1); /* "--on-surface-variant": accent-foreground  */
+  color: rgba(76, 79, 105, 1); /* "--on-surface": ring,foreground  */
+
+  color: rgb(165, 145, 196);
+}
