@@ -1,0 +1,101 @@
+{
+  "$": "ime.extension.theme",
+  "meta": {
+    "id": "io.github.arghya_lab.io.github.arghya_lab",
+    "version": "1.0.0",
+    "title": "Galaxy",
+    "description": "Customize your keyboard with Galaxy themes",
+    "maintainers": ["Arghya-lab"],
+    "license": "ISC"
+  },
+  "themes": [
+    {
+      "id": "galaxy-white",
+      "label": "Galaxy White",
+      "authors": ["Arghya-lab"],
+      "isNight": false,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-bubblegum-pop",
+      "label": "Galaxy Bubblegum Pop",
+      "authors": ["Arghya-lab"],
+      "isNight": false,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-tropical-twilight",
+      "label": "Galaxy Tropical Twilight",
+      "authors": ["Arghya-lab"],
+      "isNight": false,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-tropical-sunset",
+      "label": "Galaxy Tropical Sunset",
+      "authors": ["Arghya-lab"],
+      "isNight": false,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-black",
+      "label": "Galaxy Black",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-synthwave",
+      "label": "Galaxy Synthwave",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-kanagawa",
+      "label": "Galaxy Kanagawa",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-neon-vortex",
+      "label": "Galaxy Neon Vortex",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-earthy-elegance",
+      "label": "Galaxy Earthy Elegance",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-mystic-bloom",
+      "label": "Galaxy Mystic Bloom",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    },
+    {
+      "id": "galaxy-electric-dream",
+      "label": "Galaxy Electric Dream",
+      "authors": ["Arghya-lab"],
+      "isNight": true,
+      "isBorderless": false,
+      "isMaterialYouAware": false
+    }
+  ]
+}

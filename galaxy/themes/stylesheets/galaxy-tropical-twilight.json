@@ -1,0 +1,59 @@
+{
+  "@defines": {
+    "--primary": "rgba(121, 179, 206, 1)",
+    "--primary-variant": "rgba(201, 230, 240, 1)",
+    "--secondary": "rgba(249, 110, 42, 1)",
+    "--background": "rgba(251, 248, 239, 1)",
+    "--surface": "rgba(201, 230, 240, 1)",
+    "--on-background": "rgba(249, 110, 42, 1)",
+    "--on-surface": "rgba(121, 179, 206, 1)",
+    "--shape": "rounded-corner(8dp,8dp,8dp,8dp)",
+    "--shape-variant": "rounded-corner(12dp,12dp,12dp,12dp)"
+  },
+  "keyboard": {
+    "background": "var(--background)"
+  },
+  "key": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)",
+    "font-size": "22sp",
+    "shape": "var(--shape)",
+    "shadow-elevation": "2dp"
+  },
+  "key[code=10]": {
+    "background": "var(--primary)",
+    "foreground": "var(--on-background)"
+  },
+  "key[code=32]": {
+    "background": "var(--surface)",
+    "foreground": "var(--secondary)",
+    "font-size": "12sp"
+  },
+  "key:pressed": {
+    "background": "var(--primary-variant)",
+    "foreground": "var(--on-surface)"
+  },
+  "smartbar-key": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--on-background)",
+    "font-size": "18sp",
+    "shape": "var(--shape)"
+  },
+  "smartbar-key:pressed": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)"
+  },
+  "emoji-key": {
+    "background": "rgba(0,0,0,0)",
+    "foreground": "var(--primary)",
+    "font-size": "22sp",
+    "shape": "var(--shape)"
+  },
+  "emoji-key:pressed": {
+    "background": "var(--surface)",
+    "foreground": "var(--on-surface)"
+  },
+  "system-nav-bar": {
+    "background": "var(--background)"
+  }
+}

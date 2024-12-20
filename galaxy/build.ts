@@ -1,6 +1,11 @@
-const fs = require("fs");
-const path = require("path");
-const archiver = require("archiver");
+import fs from "fs";
+import path from "path";
+import archiver from "archiver";
+import { fileURLToPath } from "url";
+
+// Get the current directory name
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Define the output file name with the .flex extension
 const outputFilePath = path.join(__dirname, "galaxy.flex");
@@ -25,12 +30,15 @@ archive.on("error", (err) => {
 // Pipe the archive to the output stream
 archive.pipe(output);
 
-// Add the `src` folder (include the folder and its contents)
-const srcFolderPath = path.join(__dirname, "src");
-if (fs.existsSync(srcFolderPath) && fs.lstatSync(srcFolderPath).isDirectory()) {
-  archive.directory(srcFolderPath, false);
+// Add the `themes` folder (include the folder and its contents)
+const themesFolderPath = path.join(__dirname, "themes");
+if (
+  fs.existsSync(themesFolderPath) &&
+  fs.lstatSync(themesFolderPath).isDirectory()
+) {
+  archive.directory(themesFolderPath, false);
 } else {
-  console.warn("src folder does not exist.");
+  console.warn("themes folder does not exist.");
 }
 
 // Finalize the archive
